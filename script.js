@@ -12,10 +12,17 @@ const userSurname = prompt ('Il tuo cognome?');
 const userPrefColor = prompt ("Il tuo colore preferito?");
 
 
+// Chiedi un numero (BONUS).
+const userNumber = prompt('Inserisci un numero');
+const userRealNumber = parseInt(userNumber);
+
+
+// Somma del numero dell'utente più numero fisso.
+const sum = userRealNumber + 23;
+
 
 // generazione della password insicurissima per l'utente.
-const userMessage = (userName + userSurname + userPrefColor + 23);
-
+const userMessage = `la tua password è: ${userName}${userSurname}${userPrefColor}${sum}`
 
 // messaggio per l'utente diretatamente sulla pagina.
 document.getElementById('message').innerHTML = userMessage;
