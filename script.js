@@ -1,18 +1,18 @@
-// nome utente.
+// chiedi nome utente.
 const userName = prompt('Ciao come ti chiami?');
 
 
-//cognome utente.
+// chiedi cognome utente.
 
 const userSurname = prompt ('Il tuo cognome?');
 
 
-//colore preferito.
+// chiedi colore preferito dell'utente.
 
 const userPrefColor = prompt ("Il tuo colore preferito?");
 
 
-// Chiedi un numero (BONUS).
+// Chiedi un numero all'utente (BONUS).
 const userNumber = prompt('Inserisci un numero');
 const userRealNumber = parseInt(userNumber);
 
